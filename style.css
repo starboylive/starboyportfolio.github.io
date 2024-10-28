@@ -1,0 +1,514 @@
+@font-face {
+    font-family: myFont;
+    src: url(../Web1/fonts/MountainSignature-lgWJZ.ttf);
+}
+
+.sign {
+    font-family: /* 'Kanit' ,*/ Arial, Helvetica, sans-serif; 
+    position: absolute;
+    top: -8%;
+    left: 58%;
+    letter-spacing: -25px;
+    font-size: 87px;
+}
+
+.line1{
+    height: 15px;
+    width: 158px;
+    background-color: black;
+    position: absolute; 
+    left: 96.8%;
+    top: 49.1%;
+}
+
+body{
+    font-family: 'Outfit', sans-serif, century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: rgb(30, 64, 212); */
+    background-color: rgb(176, 219, 243);
+}
+
+.rey1 {
+    font-size: 150px;
+    position: absolute; 
+    top: 2%; 
+    left: 3%;
+    height: 200px;
+    width: 150px;
+    
+}
+
+.h1 {
+    height: 200px;
+    width: 150px;
+}
+
+.terk {
+    font-size: 100px;
+    position: absolute;
+    top: -32%;
+    left: 10px; 
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: -7px;
+    
+}
+
+.terk2 {
+    font-size: 100px;
+    position: absolute;
+    top: 5%;
+    left: 43px; 
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: -7px;
+   
+}
+
+.shape1 {
+    height: 100px;
+    width: 14px;
+    background-color: black;
+    position: absolute;
+    top: 45%;
+    left: 25px;
+}
+
+.shape2 {
+    height: 14.680px;
+    width: 750px;
+    background-color: black;
+    position: absolute;
+    top: 43%;
+    left: 329px;
+}
+
+.shape3{
+    height: 14.680px;
+    width: 700px;
+    background-color: black;
+    position: absolute;
+    top: 92%;
+    left: -600px;
+}
+
+.shape4{
+    height: 180px;
+    width: 12px;
+    background-color: black;
+    position: absolute;
+    top: 6.3%;
+    left: -20px;
+}
+
+.shape5{
+    height: 210px; 
+    width: 12px;
+    background-color: black;
+    position: absolute;
+    top: -60%;
+    left: 600px;
+}
+
+.nav-bar {
+    height: 31px;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    position: absolute; 
+    top: 0%;
+    left: 0px;
+}
+
+.Home {
+    background-color: transparent;
+    color: rgb(142, 178, 255);
+    margin: 0;
+    border: 0;
+    padding: -1px;
+    padding-top: 4.2px;
+    font-family: 'Outfit',sans-serif;
+    letter-spacing: 2px;
+    left: 20px;
+    opacity: 100%;
+    cursor: pointer;
+
+}
+
+.Home {
+    position: absolute;
+    left: 15px;
+    bottom: 2px;
+}
+
+.Home:hover{
+    transform: scale(20px 20px);
+    transition: 0.6s;
+    background-color: rgb(84, 164, 255);
+    color: black;
+    padding-bottom: 3px;
+    padding-top: 5px;
+    margin: 0;
+    border-radius: 20px; 
+}
+
+.Contact { 
+    background-color: transparent;
+    color: rgb(142, 178, 255);
+    margin: 0;
+    border: 0;
+    padding: -1px;
+    padding-top: 4.2px;
+    font-family: 'Outfit',sans-serif;
+    letter-spacing: 2px;
+    left: 20px;
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.Contact{
+    position: absolute;
+    left: 60px;
+    bottom: 2px;
+}
+
+.Contact:hover{
+    transform: scale(20px 20px);
+    transition: 0.6s;
+    background-color: rgb(84, 164, 255);
+    color: black;
+    padding-bottom: 3px;
+    padding-top: 5px;
+    margin: 0;
+    border-radius: 20px; 
+}
+
+.Prices { 
+    background-color: transparent;
+    color: rgb(142, 178, 255);
+    margin: 0;
+    border: 0;
+    padding: -1px;
+    padding-top: 4.2px;
+    font-family: 'Outfit',sans-serif;
+    letter-spacing: 2px;
+    left: 20px;
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.Prices {
+    position: absolute;
+    left: 120px;
+    bottom: 2px;
+}
+
+.Prices:hover{
+    transform: scale(20px 20px);
+    transition: 0.6s;
+    background-color: rgb(84, 164, 255);
+    color: black;
+    padding-bottom: 3px;
+    padding-top: 5px;
+    margin: 0;
+    border-radius: 20px; 
+}
+
+
+.date {
+    color: rgb(142, 178, 255);
+    font-family: 'OUtfit', sans-serif;
+    position: absolute;
+    left: 95%;
+    bottom: 0px;
+    top: -0.5400%;
+    font-size: 13px;
+    text-align: right;
+}
+
+.More { 
+    background-color: transparent;
+    color: rgb(142, 178, 255);
+    margin: 0;
+    border: 0;
+    padding: -1px;
+    padding-top: 4.2px;
+    font-family: 'Outfit',sans-serif;
+    letter-spacing: 2px;
+    left: 20px;
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.More {
+    position: absolute;
+    left: 180px;
+    bottom: 2px;
+}
+
+.More:hover{
+    transform: scale(20px 20px);
+    transition: 0.6s;
+    background-color: rgb(84, 164, 255);
+    color: black;
+    padding-bottom: 3px;
+    padding-top: 5px;
+    margin: 0;
+    border-radius: 20px; 
+}
+
+.eren {
+    position: absolute;
+    bottom: 2% ;
+}
+
+/* .lines {
+    height: auto;
+    width: auto;
+    position: absolute;
+} */
+
+.start { 
+    height: 10px;
+    width: 586px;
+    position: absolute;
+    left: 0%;
+    top: 26%;
+    background-color: black;
+}
+
+.start2 { 
+    height: 144px;
+    width: 10px;
+    position: absolute;
+    left: 30%;
+    top: 11.3%;
+    background-color: black;
+}
+
+.start3{
+    height: 10px;
+    width: 1332px;
+    position: absolute;
+    left: 30%;
+    top: 26%;
+    background-color: black;
+}
+
+.images {
+    position: absolute;
+    top: 1%;
+    height: 100%;
+    width: 100%;
+
+}
+
+.insights {
+    height: 400px;
+    position: absolute;
+    top: 40%;
+    left: 36px;
+    border-radius: 20px;
+}
+
+.insights:hover{ 
+    transition: 0.6s;
+    transform: scale(1.1 ,1.1);
+    transition-duration: 0.6s;
+   
+}
+
+.last {
+    height: 400px;
+    position: absolute;
+    top: 40%;
+    left: 37%;
+    border-radius: 20px;
+}
+
+.last:hover{ 
+    transition: 0.6s;
+    transform: scale(1.1 ,1.1);
+    transition-duration: 0.6s;
+   
+}
+
+.vision {
+    height: 400px;
+    position: absolute;
+    top: 40%;
+    left: 76%;
+    border-radius: 20px;
+}
+
+.vision:hover{ 
+    transition: 0.6s;
+    transform: scale(1.1 ,1.1);
+    transition-duration: 0.6s;
+   
+}
+
+.black {
+    height: 400px;
+    position: absolute;
+    top: 96%;
+    left: 2%;
+    border-radius: 20px;
+}
+
+.black:hover{ 
+    transition: 0.6s;
+    transform: scale(1.1 ,1.1);
+    transition-duration: 0.6s;
+}
+
+.under {
+    height: 400px;
+    position: absolute;
+    top: 96%;
+    left: 23%;
+    border-radius: 20px;
+}
+
+.under:hover{ 
+    transition: 0.6s;
+    transform: scale(1.1 ,1.1);
+    transition-duration: 0.6s;
+}
+
+.limit {
+    height: 400px;
+    position: absolute;
+    top: 96%;
+    left: 52%;
+    border-radius: 20px;
+}
+
+.limit:hover{ 
+    transition: 0.6s;
+    transform: scale(1.1 ,1.1);
+    transition-duration: 0.6s;
+}
+
+.dhanji {
+    height: 400px;
+    position: absolute;
+    top: 96%;
+    left: 76%;
+    border-radius: 20px;
+}
+
+.dhanji:hover{ 
+    transition: 0.6s;
+    transform: scale(1.1 ,1.1);
+    transition-duration: 0.6s;
+}
+
+
+#Insights {
+    font-size: 20px;
+    font-family: 'Outfit',Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 84%;
+    left: 200px;
+}
+
+#lasts {
+    font-size: 20px;
+    font-family: 'Outfit',Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 84%;
+    left: 975px;
+}
+
+#vision1 {
+    font-size: 20px;
+    font-family: 'Outfit',Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 84%;
+    left: 1600px;
+}
+
+#under {
+    font-size: 20px;
+    font-family: 'Outfit',Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 140%;
+    left: 580px;
+}
+
+#star {
+    font-size: 20px;
+    font-family: 'Outfit',Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 140%;
+    left: 1150px;
+}
+
+#dhanji {
+    font-size: 20px;
+    font-family: 'Outfit',Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 140%;
+    left: 1598px;
+}
+
+.kratos {
+    height: 10px;
+    width: 120px;
+    background-color: black;
+    position: absolute;
+    top: 30%;
+    left: 0px;
+}
+
+.kratos2 {
+    height: 10px;
+    width: 109px;
+    background-color: black;
+    position: absolute;
+    top: 30%;
+    left: 94.2876%;
+}
+
+.post {
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: light;
+    top: 20%;
+    left: 150px;
+    position:absolute;
+    letter-spacing: -7px; 
+
+}
+
+.designs {
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: light;
+    top: 20%;
+    left: 80%;
+    position:absolute;
+    letter-spacing: -7px; 
+}
+
+#black {
+    font-size: 20px;
+    font-family: 'Outfit',Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 140%;
+    left: 113px;
+}
+
+.blank {
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top: 145%;
+}
+
+
